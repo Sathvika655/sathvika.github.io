@@ -1,8 +1,19 @@
-# Sathvika Umenthala 👋
+<div align="center">
 
-**Java Full Stack Developer | Citi Bank | Stripe**
+# 👋 Hi, I'm **Sathvika Umenthala** 
 
-Spring Boot 3.5 | Kubernetes | Azure AKS | React | 30% faster transactions
+## 🏦 **Java Full Stack Developer** | Citi Bank | Stripe
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-blue)](https://sathvika655.github.io)
+
+<div align="center">
+  
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://sathvika655.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/sathvikareddy1207)
+[![Email](https://img.shields.io/badge/Email-Contact-red)](mailto:sathvika655@gmail.com)
+
+</div>
+
+### 🚀 **Currently Working On**
+
+### 💻 **Core Technologies**
+
