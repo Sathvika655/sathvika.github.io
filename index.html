@@ -4,35 +4,23 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Sathvika Umenthala - Java Full Stack Developer</title>
-  <style>
-/* KILL ALL PROFILE PICTURES & BACKGROUNDS */
-#header, #hero, body::before, body::after { background-image: none !important; background: #f8f9fa !important; }
-img, .avatar, .profile-img, [class*="avatar"], [class*="profile"] { display: none !important; }
-#header::before, #navbar::before, #hero::before { background: none !important; }
-.gh-header-meta .avatar, .user-profile-photo { display: none !important; }
-/* FORCE CLEAN LAYOUT */
-#hero { background: white !important; padding: 100px 0 !important; }
-</style>
-
   
-  <!-- CRITICAL: REMOVE ALL BACKGROUND IMAGES -->
+  <!-- INLINE STYLES - NO EXTERNAL CSS = NO BACKGROUND IMAGES -->
   <style>
-    /* KILL ALL BACKGROUND IMAGES & AVATARS */
-    #header, #hero, #navbar, .nav-menu, body, html {
-      background-image: none !important;
-      background: #f8f9fa !important;
-    }
-    /* HIDE BROKEN IMAGES */
-    img { display: none !important; }
-    /* FULL WIDTH CONTENT */
-    #about .col-lg-12 { width: 100% !important; }
-    /* REMOVE HEADER BACKGROUND */
-    #header::before, #hero::before { background: none !important; }
+    * { background-image: none !important; background: white !important; }
+    body, html, #header, #hero, #navbar { background: white !important; background-image: none !important; }
+    img, [class*="img"], [class*="avatar"], [class*="profile"] { display: none !important; }
+    #header::before, #hero::before, #navbar::before, body::before { background: none !important; }
+    .about { padding: 60px 0 !important; background: white !important; }
+    #hero { padding: 120px 0 !important; text-align: center !important; background: white !important; }
+    h1 { font-size: 3.5rem !important; color: #012970 !important; margin-bottom: 20px !important; }
+    h2, h3 { color: #012970 !important; }
+    .social-links a { color: #47b2e4 !important; font-size: 1.5rem !important; margin: 0 10px !important; }
   </style>
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  <!-- Vendor CSS Files -->
+  
+  <!-- KEEP ONLY ESSENTIAL FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
 
 </head>
 
