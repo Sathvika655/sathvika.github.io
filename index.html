@@ -1,223 +1,412 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Sathvika Umenthala - Java Full Stack Developer</title>
-  
-  <!-- INLINE STYLES - NO EXTERNAL CSS = NO BACKGROUND IMAGES -->
-  <style>
-    * { background-image: none !important; background: white !important; }
-    body, html, #header, #hero, #navbar { background: white !important; background-image: none !important; }
-    img, [class*="img"], [class*="avatar"], [class*="profile"] { display: none !important; }
-    #header::before, #hero::before, #navbar::before, body::before { background: none !important; }
-    .about { padding: 60px 0 !important; background: white !important; }
-    #hero { padding: 120px 0 !important; text-align: center !important; background: white !important; }
-    h1 { font-size: 3.5rem !important; color: #012970 !important; margin-bottom: 20px !important; }
-    h2, h3 { color: #012970 !important; }
-    .social-links a { color: #47b2e4 !important; font-size: 1.5rem !important; margin: 0 10px !important; }
-  </style>
-  
-  <!-- KEEP ONLY ESSENTIAL FONTS -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
 
+  <title>SathvikaUmenthalaResume</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: MyResume - v4.8.1
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
-  <!-- Mobile nav toggle -->
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-  
-  <!-- Header -->
+  <!-- ======= Header ======= -->
   <header id="header" class="d-flex flex-column justify-content-center">
+
     <nav id="navbar" class="navbar nav-menu">
       <ul>
         <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
         <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
         <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+       
         <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Projects</span></a></li>
+        
       </ul>
-    </nav>
-  </header>
+    </nav><!-- .nav-menu -->
 
-  <!-- Hero Section -->
-  <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Sathvika Umenthala</h1>
-      <p>I'm interested in <span class="typed" data-typed-items="Java Full Stack, Spring Boot, Microservices, Cloud DevOps"></span></p>
-      <div class="social-links">
-        <a href="https://linkedin.com/in/sathvikareddy1207" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        <a href="mailto:sathvika655@gmail.com" class="facebook"><i class="bx bxl-gmail"></i></a>
-        <a href="https://github.com/Sathvika655" class="google-plus"><i class="bx bxl-github"></i></a>
-      </div>
+  </header><!-- End Header -->
+
+  
+  <!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex flex-column justify-content-center">
+  <div class="container" data-aos="zoom-in" data-aos-delay="100">
+    <h1>Sathvika Umenthala</h1>
+    <p>I'm interested in <span class="typed" data-typed-items="Java Full Stack, Spring Boot, Microservices, Cloud DevOps"></span></p>
+    <div class="social-links">
+      <a href="https://linkedin.com/in/sathvikareddy1207" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      <a href="mailto:sathvika655@gmail.com" class="facebook"><i class="bx bxl-gmail"></i></a>
+      <a href="https://github.com/Sathvika655" class="google-plus"><i class="bx bxl-github"></i></a>
     </div>
-  </section>
+  </div>
+</section><!-- End Hero -->
+
 
   <main id="main">
-    <!-- About Section -->
+
+    <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
+
         <div class="section-title">
           <h2>About</h2>
-          <p>Hi, I'm Sathvika U, a Java Full Stack Developer with experience at Citi Bank and Stripe. I specialize in Spring Boot microservices, Kubernetes, and cloud-native applications on Azure AKS and GCP. Currently based in the United States, seeking Java Full Stack opportunities.</p>
+          <p>Hi, I'm Sathvika U, a Java Full Stack Developer with experience at Citi Bank and Stripe.I specialize in Spring Boot microservices, Kubernetes, and cloud-native applications on Azure AKS and GCP. 
+Currently based in the United States, seeking Java Full Stack opportunities. </p>
+    
         </div>
+
         <div class="row">
           <div class="col-lg-12 pt-4 pt-lg-0 content">
-            <h3>JAVA FULL STACK DEVELOPER</h3>
+            <br><br><br><br><br>
+            <h3>  JAVA FULL STACK DEVELOPER</h3>
+            <p class="fst-italic">
+   
+            </p>
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+1 (913) 407-3618</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Location:</strong> <span>Phoenix, Arizona</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Country:</strong> <span>United States</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+913 407 3618</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Place:</strong> <span>Phoenix, Arizona </span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Country:</strong> <span>United states of America</span></li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master of Science, Computer Science</span></li>
+                  
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master's of Science</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>sathvika655@gmail.com</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>GitHub:</strong> <span>https://github.com/Sathvika655</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>GitHub link:</strong> <span>https://github.com/sathvika655</span></li>
                 </ul>
+                
               </div>
-            </div>
+              </div>
+            
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Skills Section -->
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= 
+    <section id="facts" class="facts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Facts</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Projects</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hours Of Support</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Awards</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Facts Section --> 
+
+    <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
       <div class="container" data-aos="fade-up">
+
         <div class="section-title">
           <h2>Skills</h2>
-          <p>Technical skills from enterprise experience at Citi Bank and Stripe</p>
+          <p>I am acquainted with various programming languages like Java, Python, C and I am interested in learning new technologies. Some of my technical skills are as  below.</p>
         </div>
+
         <div class="row skills-content">
+
           <div class="col-lg-6">
+
             <div class="progress">
               <span class="skill">Java 17 | Spring Boot 3.5 | JPA/Hibernate | REST APIs | Kafka</span>
+              
             </div>
-            <div class="progress">
-              <span class="skill">React | Angular 9+ | Node.js | TypeScript | Material-UI</span>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="progress">
-              <span class="skill">Azure AKS | GCP | Docker | Kubernetes | Jenkins</span>
-            </div>
-            <div class="progress">
-              <span class="skill">MySQL | PostgreSQL | MongoDB | Redis | H2 Database</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- Resume Section -->
+            <div class="progress">
+              <span class="skill">React | Angular 9+ | Node.js | TypeScript | Material-UI </span>
+              
+            </div>
+           </div>
+          <div class="col-lg-6">
+           
+            <div class="progress">
+              <span class="skill">Azure AKS | GCP | AWS Aurora | Docker | Kubernetes | Jenkins<span>
+              </div>
+            
+            <div class="progress">
+              <span class="skill">MySQL | PostgreSQL | MongoDB | Redis | H2 Database  </span>
+              
+            </div>
+
+           
+
+          </div>
+
+        
+
+      </div>
+    </section><!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
       <div class="container" data-aos="fade-up">
+
         <div class="section-title">
           <h2>Resume</h2>
-          <p>Production experience delivering high-impact solutions</p>
+          <p> My Career Objective is to utilize my technical skills to create innovative solutions for benefit of society. </p>
         </div>
+
         <div class="row">
           <div class="col-lg-6">
             <h3 class="resume-title">Summary</h3>
             <div class="resume-item pb-0">
               <h4>Sathvika Umenthala</h4>
-              <p><em>Java Full Stack Developer with production experience at Citi Bank and Stripe. Engineered Spring Boot microservices on Kubernetes achieving 30% faster transaction throughput. PCI DSS compliant APIs with OAuth2/SAML security. AWS Certified.</em></p>
+              <p><em>Java Full Stack Developer with production experience at Citi Bank and Stripe. 
+Engineered Spring Boot microservices on Kubernetes achieving 30% faster transaction throughput. 
+PCI DSS compliant APIs with OAuth2/SAML security. AWS Certified.</em></p>
               <ul>
                 <li>Phoenix, Arizona, USA</li>
-                <li>+1 (913) 407-3618</li>
+                <li>(913) 407 3618</li>
                 <li>sathvika655@gmail.com</li>
-                <li><a href="https://github.com/Sathvika655">github.com/Sathvika655</a></li>
+                <li>https://github.com/sathvika655</li>
               </ul>
             </div>
+
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
-              <h4>Master of Science (Computer Science)</h4>
+              <h4>Masters of Science (Computer Science) </h4>
               <h5>Jan 2023 - May 2024</h5>
               <p><em>University of Central Missouri, MO, USA</em></p>
+              
             </div>
+            <div class="resume-item">
+            <h4>Skills</h4>
+            <p> <ul> 
+               <li><strong>Backend:</strong> Java 17 | Spring Boot 3.5 | JPA/Hibernate | REST APIs | Kafka | Redis | Struts 2 | Maven | Gradle </li>
+               <li><strong>Frontend:</strong> React | Angular 9+ | JavaScript ES6+ | TypeScript | Node.js | Material-UI | HTML5 | CSS3</li>
+               <li>strong>Cloud & DevOps:</strong> Azure AKS | GCP | AWS Aurora | Docker | Kubernetes | Jenkins | Terraform | GitHub Actions</li>
+               <li><strong>Databases:</strong> MySQL | PostgreSQL | MongoDB | H2 Database | Redis (Caching)</li>
+            </ul>
+            </p>
           </div>
+        </div>
           <div class="col-lg-6">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
               <h4>Java Full Stack Developer</h4>
-              <h5>Jan 2024 - Present</h5>
+              <h5> Jan 2024 - Present </h5>
               <p><em>Citi Bank, MO, USA</em></p>
               <ul>
                 <li>Engineered Spring Boot microservices with Kafka and REST APIs on Azure AKS and GCP, achieving zero message loss and 30% faster transaction throughput</li>
-                <li>Refactored monolithic Java applications into Spring Boot microservices on Kubernetes for global multi-region scalability</li>
+                <li> Refactored monolithic Java applications into Spring Boot microservices on Kubernetes for global multi-region scalability</li>
                 <li>Built secure Spring Boot REST APIs with OAuth2, SAML, and Active Directory (PCI DSS compliant)</li>
                 <li>Automated CI/CD pipelines with Jenkins, Terraform, SonarQube, and Spring Boot vulnerability scanning</li>
                 <li>Implemented Redis caching reducing latency by 25% across financial services</li>
                 <li>Deployed Prometheus and ELK monitoring reducing incident resolution time by 30%</li>
+                
               </ul>
             </div>
-            <div class="resume-item">
+             <div class="resume-item">
               <h4>Java Developer</h4>
-              <h5>Oct 2021 - Dec 2022</h5>
-              <p><em>Stripe, Chennai, India</em></p>
+              <h5> Oct 2021 - Dec 2022</h5>
+              <p><em>Stripe, Chennai, INDIA</em></p>
               <ul>
+              
                 <li>Developed Spring Boot and Struts 2 microservices maintaining 99.9% uptime for 24/7 financial operations</li>
                 <li>Migrated Angular 8 to Angular 9 with Spring Boot REST APIs improving page load times by 20%</li>
                 <li>Optimized AWS Aurora and MongoDB performance improving read/write throughput by 30%</li>
                 <li>Implemented JWT security and JUnit/Cucumber testing increasing test coverage by 35%</li>
+                
               </ul>
             </div>
+            
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- Projects Section -->
+      </div>
+    </section><!-- End Resume Section -->
+
+    
+
+    <!-- ======= Services Section ======= -->
     <section id="services" class="services">
       <div class="container" data-aos="fade-up">
+
         <div class="section-title">
           <h2>Projects</h2>
-          <p>Production-grade applications built with enterprise technologies</p>
+          <p>During my degree program and work experience I have worked on various projects to solve real world problems.</p>
         </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <h4><a href="https://github.com/Sathvika655/banking-api-sathvika">Full Stack Banking Application</a></h4>
-              <p>Production banking backend with Spring Boot 3.5, JPA, H2 Database. React dashboard with real-time updates. Full MVC REST APIs.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <h4><a href="https://github.com/Sathvika655">Vogue Vista - E-Commerce (MERN)</a></h4>
-              <p>Responsive e-commerce platform with payment gateway. Improved user engagement 65%, reduced cart abandonment 25%.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <h4><a href="https://github.com/Sathvika655">University Course Management</a></h4>
-              <p>Spring Boot + Angular + MySQL. 15+ REST APIs, real-time components for 200+ users. Automated enrollment workflows.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
 
-  <!-- Footer -->
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-blue">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+                </svg>
+                <i class="bx bxl-dribbble"></i>
+              </div>
+              <h4><a href="https://github.com/Sathvika655/banking-api-sathvika">Full Stack Banking Application</a></h4>
+<p>Production banking backend with Spring Boot 3.5, JPA, H2 Database. React dashboard with real-time updates. Full MVC REST APIs.</p>
+
+<h4><a href="https://github.com/Sathvika655">Vogue Vista - E-Commerce (MERN)</a></h4>
+<p>Responsive e-commerce platform with payment gateway. Improved user engagement 65%, reduced cart abandonment 25%.</p>
+
+<h4><a href="https://github.com/Sathvika655">University Course Management</a></h4>
+<p>Spring Boot + Angular + MySQL. 15+ REST APIs, real-time components for 200+ users. Automated enrollment workflows.</p>
+
+         </p>
+            </div>
+          </div>
+
+          
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+   
+
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= --
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Phoenix, AZ 85085</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>sathvika655@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+1 9134073618</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section --> 
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
       <h4>Sathvika Umenthala</h4>
       <div class="social-links">
-        <a href="https://linkedin.com/in/sathvikareddy1207" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-        <a href="mailto:sathvika655@gmail.com" class="facebook"><i class="bx bxl-gmail"></i></a>
-        <a href="https://github.com/Sathvika655" class="google-plus"><i class="bx bxl-github"></i></a>
+        
+        <a href="https://github.com/sathvika655" class="google-plus"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/sathvikareddy1207" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        
+       
       </div>
       <div class="copyright">
-        &copy; Copyright <strong>Sathvika Umenthala</strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Sathvika UmenthalaResume</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: [license-url] -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+        
       </div>
     </div>
-  </footer>
+  </footer><!-- End Footer -->
 
-  <!-- Scripts -->
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -227,6 +416,10 @@
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
